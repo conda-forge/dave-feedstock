@@ -29,6 +29,8 @@ requirements:
     - matplotlib-base
     - prettytable
     - netCDF4
+    - vtkplotter
+    - mafredo
 
 test:
   # Minimal tests:
