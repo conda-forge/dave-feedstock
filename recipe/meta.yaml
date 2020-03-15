@@ -10,7 +10,7 @@ source:
  
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
@@ -29,6 +29,8 @@ requirements:
     - matplotlib-base
     - prettytable
     - netCDF4
+    - vtkplotter
+    - mafredo
 
 test:
   # Minimal tests:
