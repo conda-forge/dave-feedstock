@@ -38,7 +38,7 @@ requirements:
 test:
   # Minimal tests:
   imports:
-    - DAVE
+    - numpy
 
 about:
   home: https://github.com/RubendeBruin/DAVE
