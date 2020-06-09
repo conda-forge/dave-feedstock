@@ -31,6 +31,9 @@ requirements:
     - netCDF4
     - vtkplotter
     - mafredo
+    - jupyterlab
+    - nodejs
+    - panel
 
 test:
   # Minimal tests:
