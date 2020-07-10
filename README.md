@@ -5,7 +5,7 @@ Home: https://github.com/RubendeBruin/DAVE
 
 Package license: MPL-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Difficult Analysis Very Easy
 
