@@ -5,9 +5,13 @@ Home: https://github.com/RubendeBruin/DAVE
 
 Package license: MPL-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dave-feedstock/blob/master/LICENSE.txt)
 
 Summary: Difficult Analysis Very Easy
+
+Development: https://github.com/RubendeBruin/DAVE
+
+Documentation: https://open-ocean.org/DAVE/
 
 DAVE is a python package for bookkeeping and visualization of floating, suspended and/or mechanical systems. It provides a general coordinates based geometry module and a graphical user interface.
 Assets are the main building blocks of a model. Assets are digital versions of physical objects and contain all information required to use the item in engineering. Assets can be imported into a scene (a model). In a scene assets can be connected to eachother and external influences like wind and water can be added.
