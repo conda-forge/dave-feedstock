@@ -31,7 +31,7 @@ requirements:
     - netCDF4
     - vedo
     - pyyaml
-    - mafredo >= 0.1
+    - mafredo >=0.1
 
 test:
   # Minimal tests:
