@@ -1,12 +1,12 @@
 {% set name = "useDAVE" %}
-{% set version = "1.5.8" %}                         
+{% set version = "1.6.0" %}                         
 package:
   name: dave
   version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1195259b1b4e692ab7d919b0def7872289db412a8a0e21204edd4e5730b1f0de
+  sha256: cdb9f87cb2447bfa41f6a6a53d987968f45e97c327aa19b4e00310c6af0db8c9
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - pyscaffold
   run:
     - python >=3.7
-    - vtk >=8.2.0
+    - vtk >=9.0.0
     - ipython
     - pyside2
     - numpy
@@ -30,10 +30,8 @@ requirements:
     - prettytable
     - netCDF4
     - vedo
-    - mafredo
-    - jupyterlab
-    - nodejs
-    - panel
+    - pyyaml
+    - mafredo >=0.1
 
 test:
   # Minimal tests:
