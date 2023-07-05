@@ -23,7 +23,7 @@ requirements:
     - python >=3.9
     - vtk >=9.0.0
     - ipython
-    - PySide6-essentials
+    - pyside6
     - numpy
     - scipy
     - matplotlib-base
