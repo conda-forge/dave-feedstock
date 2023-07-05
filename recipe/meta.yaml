@@ -15,22 +15,24 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.9
     - pip
     - setuptools
     - pyscaffold
   run:
-    - python >=3.7
+    - python >=3.9
     - vtk >=9.0.0
     - ipython
-    - pyside2
+    - PySide6-essentials
     - numpy
     - scipy
     - matplotlib-base
     - prettytable
     - netCDF4
     - vedo
+    - xarray
     - pyyaml
+    - rapidfuzz
     - mafredo >=0.1
 
 test:
