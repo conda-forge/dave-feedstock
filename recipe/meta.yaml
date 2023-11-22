@@ -10,7 +10,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -21,8 +21,6 @@ requirements:
     - pyscaffold
   run:
     - python >=3.9
-    - PySide6-essentials
-    - PySide6-QtAds
     - vtk
     - vedo <=2023.4.6
     - matplotlib-base
