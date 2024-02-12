@@ -1,12 +1,12 @@
 {% set name = "useDAVE" %}
-{% set version = "2.2.3" %}                         
+{% set version = "2.3.1" %}                         
 package:
   name: dave
   version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6ad529a732fbb46b3b9bba23405f33574a21a29aecd94f11838786c24cd1a4aa
+  sha256: fe3bd825e09e07f88cd7666d1d311866c37f35eb38d75327c2d0d26f818e18a1
 
 build:
   noarch: python
